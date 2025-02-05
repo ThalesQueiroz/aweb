@@ -13,7 +13,7 @@ body {
   min-height: 100vh;
   background: #2B3033;
 }
-nav a {
+ nav a {
   text-align: center;
   position: relative;
   font-size: 1.1em;
@@ -42,18 +42,15 @@ nav a:hover span {
   transform: scale(1) translateY(0);
   opacity: 1;
 }
-
 .nome-cima {
   color: #ffffff;
   margin-top: -0px;
   position: absolute;
   margin-left: 80px;
 }
-
 .navbar {
   text-align: right;
 }
-
 .header {
   position: fixed;
   top: 0;
@@ -62,7 +59,6 @@ nav a:hover span {
   padding: 60px 100px;
   background: #326E96;
 }
-
 .fotoheader {
   border-radius: 50%;
   border: 2px solid #F7F7F7;
@@ -73,42 +69,30 @@ nav a:hover span {
   margin-left: -60px;
   top: 15px;
 }
-
 .fotohero {
   width: 720px;
-  height: 620px;
+  
   overflow: hidden;
-  position: absolute;
-  top: 70px;
-  right: 0; 
+  float: right;
   border-radius: 10px;
+  margin-top: -179px;
+  margin-right: -10px;
 }
-
 .content {
   color: #ffffff;
-  position: absolute;
-  top: 50%;
-  left: 8%;
-  transform: translate(-40%);
-  z-index: 2;
-  margin-top: -250px;
-  margin-left: 50px;
+  margin-top:  250px;
+  margin-left: 30px;
+  height: 100vh;
 }
-
-
 .sobre-texto {
   color: #ffffff;
-  margin-top: 300px;
-  position: absolute;
+  margin-top: 20px;
   margin-left: 80px;
 }
-
 .curiosidades {
   color: #ffffff;
-  margin-top: 1000px;
-  position: absolute;
+  margin-top: 20px;
   margin-left: 80px;
 }
-
 
 
