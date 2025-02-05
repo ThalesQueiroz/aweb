@@ -7,43 +7,63 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de navegacao</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1 class="nome-cima">Thales Queiroz Torres
-            <ul class="links">
-                <a href="#curiosidades">Curiosidades</a>
-                <a href="#educacao">Educação</a>
-                <a href="#causos">Causos</a>
-                <a href="#habilidades">Habilidades</a>
-                <a href="#contato">Contato</a>
-            </ul>
-        </h1>
+
+    <header class="header">
+        <img class="fotoheader" src="./img/IMG_2950-_1_.jpg"width="150px">
+
+        <h1 class="nome-cima">Thales Queiroz </h1>
+            <nav class="navbar">
+                <a href="#curiosidades">curiosidades<span></span></a>
+                <a href="#educacao">educacao<span></span></a>
+                <a href="#causos">causos<span></span></a>
+                <a href="#habilidades">habilidades<span></span></a>
+                <a href="#contato">contato<span></span></a>
+           </nav>
         
+     
     
     </header>
-
-
+    
+    <div class="content">
+        <h1>Thales Queiroz Torres</h1>
+        <h2 >Sobre Mim:</h2> 
+        
+    </div>
 
     <section id="sobre">
-        <h2>Sobre Mim</h2>
-        <img src="./img/IMG_3707 (1).jpg"
-        width="300px">
-        <p>
-           Me chamo Thales, tenho 19 anos, moro em Ceará-Mirim/RN. Gosto de jogar Futebol e aproveitar os momentos com minhas Familia e amigos.
-        </p>
-    </section>
+        <div class="sobre-container">
+            <div class="sobre-texto"> 
 
+                <p>Me chamo Thales, tenho 19 anos, moro em Ceará-Mirim/RN.<br> 
+                    Gosto de jogar Futebol e aproveitar os momentos com minhas Familia e amigos.
+
+                </p>
+            </div>
+            <div class="fotohero">
+                <img class="fotohero" src="/bimestre2/paginapessoal/img/IMG_3707 (1).jpg" width="1080px">
+            </div>
+        </div>
+    </section>
+ 
     <section id="curiosidades">
-        <h2>Curiosidades</h2>
-        <ol>
-            <li>Sou atleta de Futebol desde os 7 anos.</li>
-            <li>Meu gosto musical preferido é Trap.</li>
-            <li>Adoro sair com meus amigos.</li>
-            <li>Amo minhas cachorrinhas.</li>
-            <li>Gosto de passar muito tempo com a familia.</li>
-        </ol>
+        <div class="curiosidades">
+
+            <h2>Curiosidades</h2>
+            <ol>
+                <li>Sou atleta de Futebol desde os 7 anos.</li>
+                <li>Meu gosto musical preferido é Trap.</li>
+                <li>Adoro sair com meus amigos.</li>
+                <li>Amo minhas cachorrinhas.</li>
+                <li>Gosto de passar muito tempo com a familia.</li>
+            </ol>
     </section>
 
     <section id="educacao">
@@ -55,11 +75,11 @@
             </tr>
             <tr>
                 <td>2009</td>
-                <td>CSA</td>
+                <td>Colegio de Santa Águeda</td>
             </tr>
             <tr>
                 <td>2022</td>
-                <td>IFRN</td>
+                <td>Instituto Federal do Rio Grande do Norte</td>
             </tr>
         </table>
     </section>
